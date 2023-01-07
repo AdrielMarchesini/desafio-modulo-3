@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Garamond-regular";
+  src: url(./fonts/EBGaramond-Regular.ttf);
+}
+@font-face {
+  font-family: "Garamond-bold";
+  src: url(./fonts/EBGaramond-Bold.ttf);
+}
+@font-face {
+  font-family: "Garamond-medium";
+  src: url(./fonts/EBGaramond-Medium.ttf);
+}
+
+main {
+  height: 667px;
+  background-image: url(./resources/Fondo.jpg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: #ffffff;
+}
+
+.header-logo {
+  height: 30px;
+}
+
+.header-menu-hamburguesa {
+  height: 30px;
+}
+
+.logo-main {
+  height: 280px;
+}
+
+.fondo-viñedo {
+  height: 300px;
+}
+
+.canasta-vino {
+  height: 200px;
+}
+
+.description {
+  display: grid;
+  background-color: #a01d22;
+  justify-items: center;
+  padding: 55px 32px;
+  gap: 40px;
+}
+
+.description-title {
+  font-family: "Garamond-bold";
+  text-align: center;
+  color: #fafafa;
+  margin: 0;
+  font-size: 27px;
+}
+
+.description-paragraph {
+  font-family: "Garamond-medium";
+  color: #fafafa;
+  margin: 0;
+  max-width: 500px;
+}
+
+.description-image {
+  height: 80px;
+}
+
+.product {
+  display: grid;
+  justify-content: center;
+  background-color: #080808;
+  gap: 60px;
+  padding: 50px 0px;
+}
+
+.product-title {
+  font-family: "Garamond-bold";
+  color: #fafafa;
+  margin: 0;
+  text-align: center;
+}
+
+.contenedor-vinos {
+  display: grid;
+  justify-items: center;
+  width: 206px;
+  gap: 12px;
+}
+
+.vinos-title {
+  font-family: "Garamond-medium";
+  color: #fafafa;
+  margin: 0;
+  font-family: "G";
+}
+
+.description-vinos {
+  color: #fafafa;
+  margin: 0;
+  text-align: center;
+  font-family: "Garamond-medium";
+}
+
+.contenedor-aceite {
+  display: grid;
+  justify-items: center;
+  width: 206px;
+  gap: 12px;
+}
+
+.aceite-title {
+  font-family: "Garamond-medium";
+  color: #fafafa;
+  margin: 0;
+}
+
+.description-aceite {
+  color: #fafafa;
+  margin: 0;
+  text-align: center;
+  font-family: "Garamond-medium";
+}
+
+.contenedor-mermelada {
+  display: grid;
+  justify-items: center;
+  width: 206px;
+  gap: 12px;
+}
+
+.mermelada-title {
+  font-family: "Garamond-medium";
+  color: #fafafa;
+  margin: 0;
+}
+
+.description-mermelada {
+  color: #fafafa;
+  margin: 0;
+  text-align: center;
+  font-family: "Garamond-medium";
+}
+
+.product-img-1 {
+  height: 90px;
+}
+.product-img-2 {
+  height: 90px;
+}
+.product-img-3 {
+  height: 90px;
+}
+
+.form {
+  background-color: #a01d22;
+  display: grid;
+  padding: 35px 0;
+  gap: 20px;
+}
+
+.form-title {
+  font-family: "Garamond-bold";
+  text-align: center;
+  color: #fafafa;
+}
+
+.form-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-nombre {
+  font-family: "Garamond-bold";
+  color: #fafafa;
+}
+
+.form-email {
+  font-family: "Garamond-bold";
+  color: #fafafa;
+}
+
+.form-mensaje {
+  font-family: "Garamond-bold";
+  color: #fafafa;
+}
+
+.nombre-input {
+  background-color: #080808;
+  color: #fafafa;
+  display: block;
+  height: 45px;
+  width: 335px;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.email-input {
+  background-color: #080808;
+  color: #fafafa;
+  display: block;
+  height: 45px;
+  width: 335px;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.mensaje-textarea {
+  background-color: #080808;
+  color: #fafafa;
+  display: block;
+  height: 113px;
+  width: 335px;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-enviar {
+  font-family: "Garamond-bold";
+  font-size: 20px;
+  background-color: #ffd953;
+  border-radius: 4px;
+  height: 45px;
+  width: 335px;
+  border:none;
+  border-radius: 5px;
+}
